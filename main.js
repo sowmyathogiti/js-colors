@@ -9,7 +9,7 @@ const updateColor = () => {
 }
 
 // configure event listeners
-document.querySelector('#red').addEventListener('click', updateColor)
+document.querySelector('#red').addEventListener('click', updateColor,)
 document.querySelector('#blue').addEventListener('click', updateColor)
 document.querySelector('#green').addEventListener('click', updateColor)
 document.querySelector('#red').addEventListener('touchend', updateColor)
